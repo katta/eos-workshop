@@ -114,10 +114,8 @@ cleos push action hello hi '["iitmumbai"]' -p alice@active
 
 
 # Certificate Contract
-___
 
 ```bash
-
 cd contracts/certificates/ && eosio-cpp -o certificates.wasm certificates.cpp --abigen
 
 
@@ -127,5 +125,5 @@ cleos get table alice alice
 
 
 cleos push action alice deleteall '[]' -p alice@active
-
+```
 
