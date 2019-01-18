@@ -108,5 +108,5 @@ cleos set contract hello CONTRACTS_DIR/hello -p hello@active
 # Actions
 
 ```bash
-cleos push action hello hi '["IIT Mumbai"]' -p bob@active
+cleos push action hello hi '["iitmumbai"]' -p bob@active
 ```
