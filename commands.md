@@ -81,9 +81,10 @@ cleos wallet import
 
 # Account Operations
 ```bash
-cleos create account <account name>
+### Creating account
+# cleos create account <creator account> <account name> <owner key>
 
-cleos create account alice
+cleos create account eosio alice <PUBLIC KEY>
 cleos create account bob
 
 
@@ -95,7 +96,7 @@ cleos get account bob
 
 ```bash
 ### Compile the contract
-eosio-cpp -o hello.wasm hello.cpp --abigen
+eosio-cpp -o hello.wasm [hello.cpp](contracts/helllo/hello.cpp) --abigen
 
 ### Create account for the contract
 cleos create account eosio hello YOUR_PUBLIC_KEY -p eosio@active
