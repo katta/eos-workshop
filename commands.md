@@ -111,3 +111,9 @@ cleos set contract hello CONTRACTS_DIR/hello -p hello@active
 cleos push action hello hi '["iitmumbai"]' -p bob@active
 cleos push action hello hi '["iitmumbai"]' -p alice@active
 ```
+
+
+# Certificate Contract
+___
+
+
