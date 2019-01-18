@@ -96,7 +96,7 @@ cleos get account bob
 
 ```bash
 ### Compile the contract
-eosio-cpp -o hello.wasm [hello.cpp](contracts/helllo/hello.cpp) --abigen
+eosio-cpp -o hello.wasm hello.cpp --abigen
 
 ### Create account for the contract
 cleos create account eosio hello YOUR_PUBLIC_KEY -p eosio@active
